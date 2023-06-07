@@ -1,0 +1,43 @@
+body {
+    min-height: 100vh;
+    overflow: hidden;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(
+      90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(9, 9, 121, 1) 35%,
+      rgba(0, 212, 255, 1) 100%
+    );
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .app {
+    padding: 50px;
+    border-radius: 50px;
+    box-shadow: black 1px 1px;
+    background: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  span {
+    margin-top: 20px;
+  }
+  
+  #question {
+    font-size: 2rem;
+  }
+  
+  #reponse {
+    font-size: 1.5rem;
+    color: gray;
+  }
+  
+  #reponseCachee {
+    opacity: 0.5;
+  }
